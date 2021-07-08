@@ -34,10 +34,10 @@ function setup() {
 
 function draw() {
   background(bg); 
-  text("x:"+mouseX, 50, 30);
-  text("y:"+mouseY, 50, 40);
+  // text("x:"+mouseX, 50, 30);
+  // text("y:"+mouseY, 50, 40);
   if(!hasDocked){
-    spaceCraft.x = Math.round(random(spaceCraft.x-1.5, spaceCraft.x+1.5));
+    spaceCraft.x = Math.round(random(spaceCraft.x-1, spaceCraft.x+1));
     if(keyDown(LEFT_ARROW)) {
       spaceCraft.x = spaceCraft.x-5;
       spaceCraft.addImage(spaceCraft4Img);
