@@ -51,7 +51,6 @@ function draw() {
       spaceCraft.addImage(spaceCraft2Img)
       spaceCraft.scale = 0.27;
     }else if(keyDown(DOWN_ARROW)){
-      spaceCraft.y = spaceCraft.y +5;
       spaceCraft.addImage(spaceCraft2Img)
       spaceCraft.scale = 0.27;
     }else{
